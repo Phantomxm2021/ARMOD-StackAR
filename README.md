@@ -2,6 +2,8 @@
 This repository is made with [ARMOD SDK](!https://phantomsxr.com).
 And here is a **Stack Game of AR version.**
 
+[![[Free AR SDK] The same AR SDK as Lens Studio and Spark AR -- ARMOD](https://res.cloudinary.com/marcomontalbano/image/upload/v1625650836/video_to_markdown/images/youtube--WHeBJ9EpJb8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/WHeBJ9EpJb8 "[Free AR SDK] The same AR SDK as Lens Studio and Spark AR -- ARMOD")
+
 ![](PreviewScreenShot/Preview.gif)
 
 ![](PreviewScreenShot/PackageTools.jpg)
@@ -33,3 +35,9 @@ We transplant the MOD concept into AR technology to give users more freedom to c
 2. And uploading
 
 > More about out dashboard you will go to https://docs.phantomsxr.com/development-kit/dashboard.
+
+
+### Subscribe to us for more information and tutorials about AMROD.
+
+Youtube: https://www.youtube.com/channel/UCf98zocVgz1FGF6jgx4N-oA 
+Twitter: https://twitter.com/Phantom74605762
