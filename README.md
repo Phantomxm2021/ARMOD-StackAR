@@ -2,6 +2,9 @@
 This repository is made with [ARMOD SDK](!https://phantomsxr.com).
 And here is a **Stack Game of AR version.**
 
+> You can download our app from Apple TestFlight.
+> https://testflight.apple.com/join/Y7epGXaV
+
 ![](PreviewScreenShot/Preview.gif)
 
 ![](PreviewScreenShot/PackageTools.jpg)
@@ -36,7 +39,9 @@ We transplant the MOD concept into AR technology to give users more freedom to c
 > More about out dashboard you will go to https://docs.phantomsxr.com/development-kit/dashboard.
 
 
+
 ### Subscribe to us for more information and tutorials about AMROD.
 
 Youtube: https://www.youtube.com/channel/UCf98zocVgz1FGF6jgx4N-oA 
 Twitter: https://twitter.com/Phantom74605762
+
