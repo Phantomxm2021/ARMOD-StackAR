@@ -135,3 +135,19 @@ System memory in use after: 170.4 MB.
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4693.
 Total: 3.539515 ms (FindLiveObjects: 0.514844 ms CreateObjectMapping: 0.232987 ms MarkObjects: 2.747470 ms  DeleteObjects: 0.042749 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 2366.386989 seconds.
+  path: Assets/StackAR/Artwork/Scenes
+  artifactKey: Guid(8875bc8a859d38546a8092ca845bc540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StackAR/Artwork/Scenes using Guid(8875bc8a859d38546a8092ca845bc540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15cd7954575afbb5795975615081ffd') in 0.004622 seconds
+  Import took 0.026311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.611170 seconds.
+  path: Assets/StackAR/Artwork/Scenes/StackAR.unity
+  artifactKey: Guid(1051914b8c9403643b5e2989d2f53c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StackAR/Artwork/Scenes/StackAR.unity using Guid(1051914b8c9403643b5e2989d2f53c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd88c45082d3d71466b26a130549b5bc') in 0.019145 seconds
+  Import took 0.025846 seconds .
+
