@@ -1,0 +1,19 @@
+{
+    "name": "com.Phantoms.Immersal.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b9506b116f49944d0a10fd66d7ee4b93",
+        "GUID:478a2357cc57436488a56e564b08d223"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

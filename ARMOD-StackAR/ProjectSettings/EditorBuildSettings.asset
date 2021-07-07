@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Packages/com.phantoms.armodsimulator/Assets/Scenes/Initilizer.unity
+    guid: eeb547e9b30744361ac16519089734b9
+  - enabled: 0
+    path: Packages/com.phantoms.armodsimulator/Assets/Scenes/Main.unity
+    guid: bba3faf96b9bc44078bf08e9d58807e7
+  - enabled: 0
+    path: Packages/com.phantoms.armodsimulator/Assets/Scenes/Clear.unity
+    guid: 8449e378eb28e4de3867668fa583afcc
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c8b7c41670d06ac4989fdb8b2bb141d2, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 454d295d51b19054097b1dba2a8f9ed9, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a85636127d1d66743b8c86433bf1ecae, type: 2}

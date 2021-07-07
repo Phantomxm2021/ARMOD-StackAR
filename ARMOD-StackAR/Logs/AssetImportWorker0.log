@@ -1,0 +1,137 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-StackAR/ARMOD-StackAR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61843
+Successfully changed project path to: /Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-StackAR/ARMOD-StackAR
+/Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-StackAR/ARMOD-StackAR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 80.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-StackAR/ARMOD-StackAR/Assets
+GfxDevice: creating device client; threaded=0
+2021-07-07 16:53:17.795 Unity[11424:365612] Color LCD preferred device: AMD Radeon Pro Vega 20 (high power)
+2021-07-07 16:53:17.795 Unity[11424:365612] Metal devices available: 2
+2021-07-07 16:53:17.795 Unity[11424:365612] 0: AMD Radeon Pro Vega 20 (high power)
+2021-07-07 16:53:17.795 Unity[11424:365612] 1: Intel(R) UHD Graphics 630 (low power)
+2021-07-07 16:53:17.797 Unity[11424:365612] Using device AMD Radeon Pro Vega 20 (high power)
+Initializing Metal device caps: AMD Radeon Pro Vega 20
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000480 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 69.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.454 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 73.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.505 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4263 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 264.7 MB.
+System memory in use after: 264.9 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4685.
+Total: 3.134496 ms (FindLiveObjects: 0.400026 ms CreateObjectMapping: 0.188498 ms MarkObjects: 2.458968 ms  DeleteObjects: 0.086166 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/StackAR/Artwork/Prefabs
+  artifactKey: Guid(55a40afe9a02e704ab05781cbb5618b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StackAR/Artwork/Prefabs using Guid(55a40afe9a02e704ab05781cbb5618b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5f52a46f8e01aca85179b38b3d26ee') in 0.007004 seconds
+  Import took 0.014024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/StackAR/Artwork
+  artifactKey: Guid(1eaeae0f7a9129042865a5e70ed8bb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StackAR/Artwork using Guid(1eaeae0f7a9129042865a5e70ed8bb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65be4d0fbfc3ae4ada5bccf34279b2da') in 0.001010 seconds
+  Import took 0.007247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.578758 seconds.
+  path: Assets/StackAR/Artwork/Sounds
+  artifactKey: Guid(fcd8caf2d79e2412d9f63591fe157f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StackAR/Artwork/Sounds using Guid(fcd8caf2d79e2412d9f63591fe157f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d1ca7dc58c3de9e31e2d53c67ddd71') in 0.001193 seconds
+  Import took 0.008069 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006757 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.327 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4134 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 252.5 MB.
+System memory in use after: 252.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4693.
+Total: 3.301327 ms (FindLiveObjects: 0.411579 ms CreateObjectMapping: 0.222800 ms MarkObjects: 2.623009 ms  DeleteObjects: 0.042606 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 5.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.2 MB.
+System memory in use after: 170.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4693.
+Total: 3.539515 ms (FindLiveObjects: 0.514844 ms CreateObjectMapping: 0.232987 ms MarkObjects: 2.747470 ms  DeleteObjects: 0.042749 ms)
+

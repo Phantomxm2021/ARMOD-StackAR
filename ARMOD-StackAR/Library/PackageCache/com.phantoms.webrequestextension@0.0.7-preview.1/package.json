@@ -1,0 +1,23 @@
+{
+  "displayName": "ARMOD WebRequest Extension",
+  "name": "com.phantoms.webrequestextension",
+  "version": "0.0.7-preview.1",
+  "unity": "2020.3",
+  "description": "WebRequest Extension is used to extend Unity'sbuilt-in WebRequest to support asynchronous requests (Async/Await/progress).",
+  "keywords": [],
+  "category": "Libraries",
+  "author": {
+    "name": "Phantoms",
+    "email": "phantomxm2021@gmail.com"
+  },
+  "type": "tool",
+  "homepage": "https://github.com/Phantomxm2021/ARMOD-UnityModuels",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Phantomxm2021/ARMOD-UnityModuels"
+  },
+  "license": "Apache License",
+  "bugs": {
+    "url": "https://github.com/Phantomxm2021/ARMOD-UnityModuels/issues"
+  }
+}

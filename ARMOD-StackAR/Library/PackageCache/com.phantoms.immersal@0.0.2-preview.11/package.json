@@ -1,0 +1,27 @@
+{
+  "name": "com.phantoms.immersal",
+  "version": "0.0.2-preview.11",
+  "displayName": "ARMOD Immersal",
+  "unity": "2020.3",
+  "keywords": [
+    "Immersal"
+  ],
+  "dependencies": {
+    "com.unity.xr.arfoundation": "4.1.7",
+    "com.unity.editorcoroutines": "1.0.0",
+    "com.phantoms.actionnotificationmanager": "0.0.6"
+  },
+  "author": {
+    "name": "Phantoms",
+    "email": "phantomxm2021@gmail.com"
+  },
+  "description": "In a nutshell, the Immersal SDK is a spatial mapping & visual positioning system.It allows you to merge digital content with the physical world by enabling devices to precisely locate themselves in the physical world.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Phantomxm2021/ARMOD-UnityModuels"
+  },
+  "license": "Apache License",
+  "bugs": {
+    "url": "https://github.com/Phantomxm2021/ARMOD-UnityModuels/issues"
+  }
+}

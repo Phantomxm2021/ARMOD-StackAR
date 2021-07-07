@@ -1,0 +1,28 @@
+{
+  "name": "com.phantoms.armodpackagetools",
+  "version": "0.0.7-preview.3",
+  "displayName": "ARMOD Package Tools",
+  "description": "AR-MOD is a derivative based on Unity ARFoundation. Using the technical concept of MOD in the game allows AR creators to develop their own AR creative interactive experience. This tool is an extension of AR-MOD, used to generate AR-MOD identifiable resource package body.",
+  "unity": "2020.3",
+  "dependencies": {
+    "com.unity.scriptablebuildpipeline": "1.14.1",
+    "com.phantoms.webrequestextension": "0.0.7-preview.1",
+    "com.unity.xr.arfoundation": "4.1.7",
+    "com.unity.xr.arkit": "4.1.7",
+    "com.unity.xr.arkit-face-tracking": "4.1.7",
+    "com.unity.xr.arcore": "4.1.7",
+    "com.unity.xr.interaction.toolkit": "0.10.0-preview.7"
+  },
+  "keywords": [
+    "assetbundles",
+    "cache",
+    "server",
+    "artoolkit"
+  ],
+  "author": {
+    "name": "Phantoms",
+    "email": "phantomxm2021@gmail.com"
+  },
+  "type": "tool",
+  "license": "Apache License"
+}

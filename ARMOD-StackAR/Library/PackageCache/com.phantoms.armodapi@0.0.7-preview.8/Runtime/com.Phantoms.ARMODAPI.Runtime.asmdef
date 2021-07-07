@@ -1,0 +1,17 @@
+{
+    "name": "com.Phantoms.ARMODAPI.Runtime",
+    "rootNamespace": "com.Phantoms.ARMODAPI.Runtime",
+    "references": [
+        "GUID:d445613d091ffc941ae68355f01656f6",
+        "GUID:f472ae737a280fe4cbdf5b14dbbf9fcc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

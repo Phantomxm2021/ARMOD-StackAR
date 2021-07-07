@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb353a82b4ddc4e4daf09dcc2018b54f, type: 3}
+  m_Name: Configure
+  m_EditorClassIdentifier: 
+  ARWorldScale: 5
+  Version: 0.0.2
+  Algorithm: 0
+  AlgorithmAutoStart: 0
+  PlaneDetectionMode: 1
+  ProjectName: StackAR
+  MainEntry: StackARMainEntry
+  DomainName: StackAR
+  DebugModel: 0
+  CustomPointCloudVisualizerName: 
+  CustomPlaneVisualizerName: ARDefaultPlaneVisualizer
+  AutoPlacementOfEnvironmentProbe: 0
+  MaxMovingOfTracking: 0
+  EnvironmentProbe: 0
+  LightEstimation: 0
+  CoachingOverlay: 0
+  PostProcessing: 0
+  CanInteraction: 0
+  AutoSelect: 0
+  AROcclusion: 0
+  MaximumFaceCount: 1
+  DeveloperToken: 
+  LocalizationInterval: 0
+  UseServerLocalizer: 0
+  RenderMode: 0
+  TurnOffServerLocalizedAfterSuccess: 1
+  EnvironmentDepthMode: 0
+  HumanSegmentationDepthMode: 0
+  HumanSegmentationStencilMode: 0
+  OcclusionPreferenceMode: 0
+  QualityLevel: 1

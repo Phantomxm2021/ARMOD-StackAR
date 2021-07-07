@@ -1,0 +1,16 @@
+{
+    "name": "com.Phantoms.ActionNotificationManager.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d445613d091ffc941ae68355f01656f6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
