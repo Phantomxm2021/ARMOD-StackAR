@@ -5,27 +5,27 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637612293330000000
-    m_Hash: 3518703260
+      ticks: 637622189370000000
+    m_Hash: 2486822999
   m_LockFileStatus:
     m_FilePath: /Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-StackAR/ARMOD-StackAR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637612446520000000
-    m_Hash: 966207887
+      ticks: 637622189390000000
+    m_Hash: 2981171223
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.phantoms.actionnotificationmanager@0.0.7-preview.4
+    - packageId: com.phantoms.actionnotificationmanager@0.0.7-preview.5
       testable: 0
       isDirectDependency: 1
-      version: 0.0.7-preview.4
+      version: 0.0.7-preview.5
       source: 1
-      resolvedPath: /Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-StackAR/ARMOD-StackAR/Library/PackageCache/com.phantoms.actionnotificationmanager@0.0.7-preview.4
+      resolvedPath: /Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-StackAR/ARMOD-StackAR/Library/PackageCache/com.phantoms.actionnotificationmanager@0.0.7-preview.5
       assetPath: Packages/com.phantoms.actionnotificationmanager
       name: com.phantoms.actionnotificationmanager
       displayName: ARMOD Action Notification Manager
@@ -52,6 +52,7 @@ m_PackageAssets:
         - 0.0.7-preview.2
         - 0.0.7-preview.3
         - 0.0.7-preview.4
+        - 0.0.7-preview.5
         compatible:
         - 0.0.1
         - 0.0.2
@@ -62,6 +63,7 @@ m_PackageAssets:
         - 0.0.7-preview.2
         - 0.0.7-preview.3
         - 0.0.7-preview.4
+        - 0.0.7-preview.5
         verified: 
       dependencies: []
       resolvedDependencies: []
@@ -86,7 +88,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637601140904990000
+      datePublishedTicks: 637621775301210000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -94,12 +96,12 @@ m_PackageAssets:
         url: git+https://github.com/Phantomxm2021/ARMOD-UnityModuels.git
         revision: 
         path: 
-    - packageId: com.phantoms.armodapi@0.0.7-preview.8
+    - packageId: com.phantoms.armodapi@0.0.7-preview.10
       testable: 0
       isDirectDependency: 1
-      version: 0.0.7-preview.8
+      version: 0.0.7-preview.10
       source: 1
-      resolvedPath: /Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-StackAR/ARMOD-StackAR/Library/PackageCache/com.phantoms.armodapi@0.0.7-preview.8
+      resolvedPath: /Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-StackAR/ARMOD-StackAR/Library/PackageCache/com.phantoms.armodapi@0.0.7-preview.10
       assetPath: Packages/com.phantoms.armodapi
       name: com.phantoms.armodapi
       displayName: APIMOD Open API
@@ -134,6 +136,8 @@ m_PackageAssets:
         - 0.0.7-preview.6
         - 0.0.7-preview.7
         - 0.0.7-preview.8
+        - 0.0.7-preview.9
+        - 0.0.7-preview.10
         compatible:
         - 0.0.1
         - 0.0.2
@@ -148,6 +152,8 @@ m_PackageAssets:
         - 0.0.7-preview.6
         - 0.0.7-preview.7
         - 0.0.7-preview.8
+        - 0.0.7-preview.9
+        - 0.0.7-preview.10
         verified: 
       dependencies:
       - name: com.phantoms.armodpackagetools
@@ -156,7 +162,7 @@ m_PackageAssets:
         version: 0.0.7-preview.2
       resolvedDependencies:
       - name: com.phantoms.armodpackagetools
-        version: 0.0.7-preview.3
+        version: 0.0.7-preview.4
       - name: com.unity.scriptablebuildpipeline
         version: 1.14.1
       - name: com.phantoms.webrequestextension
@@ -202,7 +208,7 @@ m_PackageAssets:
       - name: com.unity.modules.imgui
         version: 1.0.0
       - name: com.phantoms.actionnotificationmanager
-        version: 0.0.7-preview.4
+        version: 0.0.7-preview.5
       keywords:
       - ARMOD
       - API
@@ -219,7 +225,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637601141049420000
+      datePublishedTicks: 637621775425430000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -227,12 +233,12 @@ m_PackageAssets:
         url: git+https://github.com/Phantomxm2021/ARMOD-UnityModuels.git
         revision: 
         path: 
-    - packageId: com.phantoms.armodpackagetools@0.0.7-preview.3
+    - packageId: com.phantoms.armodpackagetools@0.0.7-preview.4
       testable: 0
       isDirectDependency: 1
-      version: 0.0.7-preview.3
+      version: 0.0.7-preview.4
       source: 1
-      resolvedPath: /Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-StackAR/ARMOD-StackAR/Library/PackageCache/com.phantoms.armodpackagetools@0.0.7-preview.3
+      resolvedPath: /Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-StackAR/ARMOD-StackAR/Library/PackageCache/com.phantoms.armodpackagetools@0.0.7-preview.4
       assetPath: Packages/com.phantoms.armodpackagetools
       name: com.phantoms.armodpackagetools
       displayName: ARMOD Package Tools
@@ -260,6 +266,7 @@ m_PackageAssets:
         - 0.0.7-preview.1
         - 0.0.7-preview.2
         - 0.0.7-preview.3
+        - 0.0.7-preview.4
         compatible:
         - 0.0.1
         - 0.0.2
@@ -271,6 +278,7 @@ m_PackageAssets:
         - 0.0.7-preview.1
         - 0.0.7-preview.2
         - 0.0.7-preview.3
+        - 0.0.7-preview.4
         verified: 
       dependencies:
       - name: com.unity.scriptablebuildpipeline
@@ -350,7 +358,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637599436141040000
+      datePublishedTicks: 637621775620330000
       documentationUrl: 
       hasRepository: 0
       repository:
@@ -415,115 +423,6 @@ m_PackageAssets:
         isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 637548539246820000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git+https://github.com/Phantomxm2021/ARMOD-UnityModuels.git
-        revision: 
-        path: 
-    - packageId: com.phantoms.armodsimulator@0.0.7-preview.2
-      testable: 0
-      isDirectDependency: 1
-      version: 0.0.7-preview.2
-      source: 1
-      resolvedPath: /Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-StackAR/ARMOD-StackAR/Library/PackageCache/com.phantoms.armodsimulator@0.0.7-preview.2
-      assetPath: Packages/com.phantoms.armodsimulator
-      name: com.phantoms.armodsimulator
-      displayName: ARMOD Simulator
-      author:
-        name: Phantoms
-        email: phantomxm2021@gmail.com
-        url: 
-      category: 
-      type: tool
-      description: The AR-MOD Simulator is a tool used to develop AR Experience content.
-        It allows developers to get what you see is what you get.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.0.1
-        - 0.0.5-preiview.1
-        - 0.0.6
-        - 0.0.7-preview.1
-        - 0.0.7-preview.2
-        compatible:
-        - 0.0.1
-        - 0.0.5-preiview.1
-        - 0.0.6
-        - 0.0.7-preview.1
-        - 0.0.7-preview.2
-        verified: 
-      dependencies:
-      - name: com.phantoms.armodpackagetools
-        version: 0.0.7-preview.1
-      - name: com.phantoms.webrequestextension
-        version: 0.0.7-preview.1
-      - name: com.unity.scriptablebuildpipeline
-        version: 1.14.1
-      resolvedDependencies:
-      - name: com.phantoms.armodpackagetools
-        version: 0.0.7-preview.3
-      - name: com.unity.scriptablebuildpipeline
-        version: 1.14.1
-      - name: com.phantoms.webrequestextension
-        version: 0.0.7-preview.1
-      - name: com.unity.xr.arfoundation
-        version: 4.1.7
-      - name: com.unity.xr.arsubsystems
-        version: 4.1.7
-      - name: com.unity.subsystemregistration
-        version: 1.1.0
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      - name: com.unity.xr.management
-        version: 4.0.1
-      - name: com.unity.modules.vr
-        version: 1.0.0
-      - name: com.unity.modules.physics
-        version: 1.0.0
-      - name: com.unity.modules.xr
-        version: 1.0.0
-      - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.7
-      - name: com.unity.xr.arkit
-        version: 4.1.7
-      - name: com.unity.editorcoroutines
-        version: 1.0.0
-      - name: com.unity.xr.arkit-face-tracking
-        version: 4.1.7
-      - name: com.unity.xr.arcore
-        version: 4.1.7
-      - name: com.unity.modules.androidjni
-        version: 1.0.0
-      - name: com.unity.xr.interaction.toolkit
-        version: 0.10.0-preview.7
-      - name: com.unity.inputsystem
-        version: 1.0.0
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      keywords: []
-      registry:
-        id: scoped:Phantom ARMOD
-        name: Phantom ARMOD
-        url: https://registry.npmjs.org
-        scopes:
-        - com.phantoms
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 1
-      hideInEditor: 0
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637563875408140000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -611,7 +510,7 @@ m_PackageAssets:
       - name: com.unity.editorcoroutines
         version: 1.0.0
       - name: com.phantoms.actionnotificationmanager
-        version: 0.0.7-preview.4
+        version: 0.0.7-preview.5
       keywords:
       - Immersal
       registry:
@@ -727,6 +626,8 @@ m_PackageAssets:
         - 1.3.9
         - 1.4.9
         - 1.5.7
+        - 1.6.0
+        - 1.7.1
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -741,6 +642,7 @@ m_PackageAssets:
         - 1.3.9
         - 1.4.9
         - 1.5.7
+        - 1.6.0
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -928,6 +830,7 @@ m_PackageAssets:
         - 2.0.7
         - 2.0.8
         - 2.0.9
+        - 2.0.11
         compatible:
         - 1.0.2
         - 1.0.3
@@ -943,7 +846,8 @@ m_PackageAssets:
         - 2.0.7
         - 2.0.8
         - 2.0.9
-        verified: 2.0.9
+        - 2.0.11
+        verified: 2.0.11
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -1206,6 +1110,7 @@ m_PackageAssets:
         - 10.4.0
         - 10.5.0
         - 10.5.1
+        - 10.6.0
         compatible:
         - 10.3.2
         - 10.4.0
@@ -1590,6 +1495,7 @@ m_PackageAssets:
         - 1.5.2
         - 1.5.4
         - 1.5.5
+        - 1.5.6
         - 1.6.0-pre.1
         - 1.6.0-pre.3
         - 1.6.0-pre.4
@@ -1611,6 +1517,7 @@ m_PackageAssets:
         - 1.5.2
         - 1.5.4
         - 1.5.5
+        - 1.5.6
         - 1.6.0-pre.1
         - 1.6.0-pre.3
         - 1.6.0-pre.4
@@ -1807,6 +1714,7 @@ m_PackageAssets:
         - 10.4.0
         - 10.5.0
         - 10.5.1
+        - 10.6.0
         compatible:
         - 10.3.2
         - 10.4.0
@@ -3660,6 +3568,8 @@ m_PackageAssets:
         - 4.0.3
         - 4.0.5
         - 4.0.6
+        - 4.0.7
+        - 4.1.0-pre.1
         compatible:
         - 3.2.13
         - 3.2.15
@@ -3672,7 +3582,9 @@ m_PackageAssets:
         - 4.0.3
         - 4.0.5
         - 4.0.6
-        verified: 4.0.6
+        - 4.0.7
+        - 4.1.0-pre.1
+        verified: 4.0.7
       dependencies:
       - name: com.unity.modules.subsystems
         version: 1.0.0
@@ -3840,6 +3752,7 @@ m_PackageAssets:
         - 10.4.0
         - 10.5.0
         - 10.5.1
+        - 10.6.0
         compatible:
         - 10.3.2
         - 10.4.0
@@ -4133,6 +4046,7 @@ m_PackageAssets:
         - 10.4.0
         - 10.5.0
         - 10.5.1
+        - 10.6.0
         compatible:
         - 10.3.2
         - 10.4.0
@@ -4457,65 +4371,6 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
         revision: f67fc9992bbc7a553b17375de53a8b2db136528e
         path: 
-    - packageId: com.phantoms.webrequestextension@0.0.7-preview.1
-      testable: 0
-      isDirectDependency: 0
-      version: 0.0.7-preview.1
-      source: 1
-      resolvedPath: /Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-StackAR/ARMOD-StackAR/Library/PackageCache/com.phantoms.webrequestextension@0.0.7-preview.1
-      assetPath: Packages/com.phantoms.webrequestextension
-      name: com.phantoms.webrequestextension
-      displayName: ARMOD WebRequest Extension
-      author:
-        name: Phantoms
-        email: phantomxm2021@gmail.com
-        url: 
-      category: Libraries
-      type: tool
-      description: WebRequest Extension is used to extend Unity'sbuilt-in WebRequest
-        to support asynchronous requests (Async/Await/progress).
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.0.1
-        - 0.0.2
-        - 0.0.5-preview.1
-        - 0.0.5
-        - 0.0.6
-        - 0.0.7-preview.1
-        compatible:
-        - 0.0.1
-        - 0.0.2
-        - 0.0.5-preview.1
-        - 0.0.5
-        - 0.0.6
-        - 0.0.7-preview.1
-        verified: 
-      dependencies: []
-      resolvedDependencies: []
-      keywords: []
-      registry:
-        id: scoped:Phantom ARMOD
-        name: Phantom ARMOD
-        url: https://registry.npmjs.org
-        scopes:
-        - com.phantoms
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637562556009820000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git+https://github.com/Phantomxm2021/ARMOD-UnityModuels.git
-        revision: 
-        path: 
     - packageId: com.unity.scriptablebuildpipeline@1.14.1
       testable: 0
       isDirectDependency: 0
@@ -4657,6 +4512,65 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/Addressables.git
         revision: 77a8e2e3bc47fd22d4f773d5b949d92bffda3036
+        path: 
+    - packageId: com.phantoms.webrequestextension@0.0.7-preview.1
+      testable: 0
+      isDirectDependency: 0
+      version: 0.0.7-preview.1
+      source: 1
+      resolvedPath: /Users/nswell/Documents/Git/CellStudio/ARMODs/Unity/ARMOD-Examples/ARMOD-StackAR/ARMOD-StackAR/Library/PackageCache/com.phantoms.webrequestextension@0.0.7-preview.1
+      assetPath: Packages/com.phantoms.webrequestextension
+      name: com.phantoms.webrequestextension
+      displayName: ARMOD WebRequest Extension
+      author:
+        name: Phantoms
+        email: phantomxm2021@gmail.com
+        url: 
+      category: Libraries
+      type: tool
+      description: WebRequest Extension is used to extend Unity'sbuilt-in WebRequest
+        to support asynchronous requests (Async/Await/progress).
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.1
+        - 0.0.2
+        - 0.0.5-preview.1
+        - 0.0.5
+        - 0.0.6
+        - 0.0.7-preview.1
+        compatible:
+        - 0.0.1
+        - 0.0.2
+        - 0.0.5-preview.1
+        - 0.0.5
+        - 0.0.6
+        - 0.0.7-preview.1
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: scoped:Phantom ARMOD
+        name: Phantom ARMOD
+        url: https://registry.npmjs.org
+        scopes:
+        - com.phantoms
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637562556009820000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Phantomxm2021/ARMOD-UnityModuels.git
+        revision: 
         path: 
     - packageId: com.unity.xr.arkit@4.1.7
       testable: 0

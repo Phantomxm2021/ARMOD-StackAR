@@ -11,7 +11,7 @@ namespace StackAR
 {
     public class StackARMainEntry
     {
-        internal static API api = new API();
+        internal static API api = new API(CONST_PROJECT_NAME);
 
         private const string CONST_PROJECT_NAME = "StackAR";
         private const string CONST_CUBE_NAME = "Cube";
@@ -46,14 +46,14 @@ namespace StackAR
             //Use this for initialization
             await BuildUI();
 
-            cubePrefab = await api.LoadAssetAsync<GameObject>(CONST_PROJECT_NAME, CONST_CUBE_NAME);
-            var tmp_WorldPrefab = await api.LoadAssetAsync<GameObject>(CONST_PROJECT_NAME, CONST_WORLD_NAME);
-            worldGO = api.InstanceGameObject(tmp_WorldPrefab, string.Empty, null);
+            cubePrefab = await api.LoadAssetAsync<GameObject>( CONST_CUBE_NAME);
+            var tmp_WorldPrefab = await api.LoadAssetAsync<GameObject>( CONST_WORLD_NAME);
+            worldGO = UnityEngine.Object.Instantiate(tmp_WorldPrefab);
             worldGO.SetActive(false);
 
             SetupScript();
 
-            BlockFallSound = await api.LoadAssetAsync<AudioClip>(CONST_PROJECT_NAME, CONST_BLOCK_FALL_SOUNDS_NAME);
+            BlockFallSound = await api.LoadAssetAsync<AudioClip>( CONST_BLOCK_FALL_SOUNDS_NAME);
             Assert.IsNotNull(BlockFallSound);
 
             await Task.Delay(2000);
@@ -65,8 +65,8 @@ namespace StackAR
 
         private async Task BuildUI()
         {
-            var tmp_UICanvasPrefab = await api.LoadAssetAsync<GameObject>(CONST_PROJECT_NAME, CONST_UI_CANVAS_NAME);
-            stackARCanvasGO = api.InstanceGameObject(tmp_UICanvasPrefab, string.Empty, null);
+            var tmp_UICanvasPrefab = await api.LoadAssetAsync<GameObject>( CONST_UI_CANVAS_NAME);
+            stackARCanvasGO = UnityEngine.Object.Instantiate(tmp_UICanvasPrefab);
             stackARCanvasGO.AddComponent<UIManager>();
 
             var tmp_StartGameButtonGO = api.FindGameObjectByName("Start_Game_Button");
@@ -169,7 +169,7 @@ namespace StackAR
             });
             var tmp_AudioSource = Object.FindObjectOfType<AudioSource>();
             Assert.IsNotNull(tmp_AudioSource);
-            tmp_AudioSource.clip = await api.LoadAssetAsync<AudioClip>(CONST_PROJECT_NAME, CONST_GAME_LAUNCH_NAME);
+            tmp_AudioSource.clip = await api.LoadAssetAsync<AudioClip>( CONST_GAME_LAUNCH_NAME);
             tmp_AudioSource.Play();
         }
     }

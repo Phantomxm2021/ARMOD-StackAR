@@ -1,14 +1,14 @@
 {
   "dependencies": {
     "com.phantoms.actionnotificationmanager": {
-      "version": "0.0.7-preview.4",
+      "version": "0.0.7-preview.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://registry.npmjs.org"
     },
     "com.phantoms.armodapi": {
-      "version": "0.0.7-preview.8",
+      "version": "0.0.7-preview.10",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -18,7 +18,7 @@
       "url": "https://registry.npmjs.org"
     },
     "com.phantoms.armodpackagetools": {
-      "version": "0.0.7-preview.3",
+      "version": "0.0.7-preview.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -37,17 +37,6 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {},
-      "url": "https://registry.npmjs.org"
-    },
-    "com.phantoms.armodsimulator": {
-      "version": "0.0.7-preview.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.phantoms.armodpackagetools": "0.0.7-preview.1",
-        "com.phantoms.webrequestextension": "0.0.7-preview.1",
-        "com.unity.scriptablebuildpipeline": "1.14.1"
-      },
       "url": "https://registry.npmjs.org"
     },
     "com.phantoms.immersal": {
