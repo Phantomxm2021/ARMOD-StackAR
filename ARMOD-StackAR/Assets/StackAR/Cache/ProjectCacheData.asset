@@ -23,6 +23,7 @@ MonoBehaviour:
   ProgrammableType: 0
   MainVisualScripting: 
   DebugModel: 0
+  JitFlag: 0
   CustomPointCloudVisualizerName: 
   CustomPlaneVisualizerName: ARDefaultPlaneVisualizer
   AutoPlacementOfEnvironmentProbe: 0
