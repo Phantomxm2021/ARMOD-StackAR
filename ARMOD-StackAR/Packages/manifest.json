@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "com.phantomsxr.armodprojectwizard": "0.0.5-alpha.1",
+    "com.phantomsxr.actionnotification": "1.0.0-preview.3",
+    "com.phantomsxr.armodprojectwizard": "1.0.0-preview.2",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "1.15.4",
     "com.unity.ide.rider": "3.0.7",
