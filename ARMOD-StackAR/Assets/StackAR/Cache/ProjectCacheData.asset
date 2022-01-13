@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7172615590900209992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb353a82b4ddc4e4daf09dcc2018b54f, type: 3}
+  m_Name: Configures
+  m_EditorClassIdentifier: 
+  ARWorldScale: 10
+  Version: 0.0.1
+  Algorithm: 0
+  AlgorithmAutoStart: 0
+  PlaneDetectionMode: 1
+  ProjectName: StackAR
+  MainEntry: StackARMainEntry
+  DomainName: StackAR
+  ProgrammableType: 0
+  MainVisualScripting: 
+  DebugModel: 0
+  CustomPointCloudVisualizerName: 
+  CustomPlaneVisualizerName: ARDefaultPlaneVisualizer
+  AutoPlacementOfEnvironmentProbe: 0
+  MaxMovingOfTracking: 0
+  EnvironmentProbe: 0
+  LightEstimation: 0
+  CoachingOverlay: 0
+  PostProcessing: 0
+  CanInteraction: 0
+  AutoSelect: 0
+  AROcclusion: 0
+  MaximumFaceCount: 1
+  DeveloperToken: 
+  LocalizationInterval: 0
+  UseServerLocalizer: 0
+  AutoStart: 0
+  BurstMode: 1
+  StopLocalizedAfterSuccess: 1
+  EnvironmentDepthMode: 0
+  HumanSegmentationDepthMode: 0
+  HumanSegmentationStencilMode: 0
+  OcclusionPreferenceMode: 0
+  Multiplayer: 0
+  DisplayPing: 0
+  Discovery: 0
+  QualityLevel: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50b903e99cad4e0db9a5bf75fdfa955b, type: 3}
+  m_Name: ProjectCacheData
+  m_EditorClassIdentifier: 
+  DetailCacheData:
+    Id: 0
+    Configures: {fileID: -7172615590900209992}
+    BuildSettingData: {fileID: 902116988220541467}
+    Contents:
+    - Id: 0
+      DisplayName: StackARCanvas
+      AssetPathInUnity: Assets/StackAR/Artwork/Prefabs/StackARCanvas.prefab
+      Type: GameObject
+    - Id: 1
+      DisplayName: Cube
+      AssetPathInUnity: Assets/StackAR/Artwork/Prefabs/Cube.prefab
+      Type: GameObject
+    - Id: 2
+      DisplayName: World
+      AssetPathInUnity: Assets/StackAR/Artwork/Prefabs/World.prefab
+      Type: GameObject
+    - Id: 3
+      DisplayName: GameLaunch
+      AssetPathInUnity: Assets/StackAR/Artwork/Sounds/GameLaunch.mp3
+      Type: AudioClip
+    - Id: 4
+      DisplayName: BlockFall
+      AssetPathInUnity: Assets/StackAR/Artwork/Sounds/BlockFall.mp3
+      Type: AudioClip
+    Blocks:
+    - com.Phantoms.ARMODPackageTools.Core.AlgorithmBlock
+    - com.Phantoms.ARMODPackageTools.Core.VersionBlock
+    - com.Phantoms.ARMODPackageTools.Core.ARWorldScaleBlock
+    - com.Phantoms.ARMODPackageTools.Core.ProgrammableBlock
+    - com.Phantoms.ARMODPackageTools.Core.PlaneVisualizerBlock
+    - com.Phantoms.ARMODPackageTools.Core.QualityBlock
+    SubPath: Assets/StackAR
+  Project:
+    Id: 0
+    DisplayName: StackAR
+    ProjectStatus: 1
+--- !u!114 &902116988220541467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3810b02e13a54ea6947542622a22e9aa, type: 3}
+  m_Name: BuildSettingData
+  m_EditorClassIdentifier: 
+  BuildTargetGroup: 7
+  BuildTarget: 13
+  BuildCompression: 1
