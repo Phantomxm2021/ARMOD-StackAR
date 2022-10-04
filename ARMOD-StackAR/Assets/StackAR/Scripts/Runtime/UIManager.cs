@@ -5,22 +5,24 @@ using UnityEngine.Assertions;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-namespace StackAR
+namespace StackAR.Runtime
 {
     public class UIManager : MonoBehaviour
     {
-
         public Button StartGameButton;
         public Button GameOverExit;
-        [FormerlySerializedAs("gamingScoreText")] public Text GamingScoreText;
-        [FormerlySerializedAs("gameOverScoreText")] public Text GameOverScoreText;
-        
+
+        [FormerlySerializedAs("gamingScoreText")]
+        public Text GamingScoreText;
+
+        [FormerlySerializedAs("gameOverScoreText")]
+        public Text GameOverScoreText;
+
         private Animator animator;
         private static readonly int START = Animator.StringToHash("Start");
         private static readonly int GAME_OVER = Animator.StringToHash("GameOver");
         private static readonly int GAMING = Animator.StringToHash("Gaming");
 
-        
 
         private int currentScore;
         private static readonly int UPDATE_SCORE = Animator.StringToHash("UpdateScore");
@@ -33,19 +35,15 @@ namespace StackAR
 
         private void Start()
         {
-           
-            
             StartGameButton.GetComponent<Button>().onClick.AddListener(() =>
             {
                 ActionNotificationCenter.DefaultCenter.PostNotification("UpdateGameState",
                     new GameStateNotificationData() {GameState = GameState.Gaming});
             });
-            GameOverExit.GetComponent<Button>().onClick.AddListener(() => { StackARMainEntry.api.ExitAR(); });
-            
+            GameOverExit.GetComponent<Button>().onClick.AddListener(() => { StackARMainEntry.api.Exit(); });
+
             animator = GetComponent<Animator>();
             Assert.IsNotNull(animator, "Animator can not empty!");
-
-         
         }
 
         private void GameScoreListener(BaseNotificationData _data)
@@ -64,7 +62,7 @@ namespace StackAR
         private void GameStateListener(BaseNotificationData _data)
         {
             if (!(_data is GameStateNotificationData tmp_Data)) return;
-          
+            Debug.Log(tmp_Data.GameState);
             switch (tmp_Data.GameState)
             {
                 case GameState.Ready:
@@ -86,6 +84,4 @@ namespace StackAR
             }
         }
     }
-
-
 }

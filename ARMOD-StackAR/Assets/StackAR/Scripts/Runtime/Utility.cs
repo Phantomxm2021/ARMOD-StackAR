@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace StackAR
+namespace StackAR.Runtime
 {
     public class Utility
     {

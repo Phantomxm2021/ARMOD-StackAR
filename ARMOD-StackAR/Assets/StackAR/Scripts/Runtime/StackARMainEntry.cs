@@ -7,7 +7,7 @@ using UnityEngine.Assertions;
 using UnityEngine.UI;
 using Object = UnityEngine.Object;
 
-namespace StackAR
+namespace StackAR.Runtime
 {
     public class StackARMainEntry
     {

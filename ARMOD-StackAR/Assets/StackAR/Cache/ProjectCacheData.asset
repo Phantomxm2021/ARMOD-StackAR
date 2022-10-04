@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb353a82b4ddc4e4daf09dcc2018b54f, type: 3}
   m_Name: Configures
   m_EditorClassIdentifier: 
+  SDKDeviceType: 1
   ARWorldScale: 10
   Version: 0.0.1
   Algorithm: 0
@@ -19,22 +20,22 @@ MonoBehaviour:
   PlaneDetectionMode: 1
   ProjectName: StackAR
   MainEntry: StackARMainEntry
-  DomainName: StackAR
+  DomainName: StackAR.Runtime
   ProgrammableType: 0
   MainVisualScripting: 
   DebugModel: 0
   JitFlag: 0
   CustomPointCloudVisualizerName: 
   CustomPlaneVisualizerName: ARDefaultPlaneVisualizer
-  AutoPlacementOfEnvironmentProbe: 0
   MaxMovingOfTracking: 0
   EnvironmentProbe: 0
+  AutoPlacementOfEnvironmentProbe: 0
+  UseEnvironmentHDRTexture: 0
   LightEstimation: 0
+  LightEstimationHDR: 0
   CoachingOverlay: 0
   PostProcessing: 0
   CanInteraction: 0
-  AutoSelect: 0
-  AROcclusion: 0
   MaximumFaceCount: 1
   DeveloperToken: 
   LocalizationInterval: 0
@@ -42,6 +43,8 @@ MonoBehaviour:
   AutoStart: 0
   BurstMode: 1
   StopLocalizedAfterSuccess: 1
+  AROcclusion: 0
+  TemporalSmoothing: 0
   EnvironmentDepthMode: 0
   HumanSegmentationDepthMode: 0
   HumanSegmentationStencilMode: 0
@@ -50,6 +53,9 @@ MonoBehaviour:
   DisplayPing: 0
   Discovery: 0
   QualityLevel: 1
+  UseMediaRecorder: 0
+  UseMicrophone: 1
+  MediaResolution: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,6 +117,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3810b02e13a54ea6947542622a22e9aa, type: 3}
   m_Name: BuildSettingData
   m_EditorClassIdentifier: 
-  BuildTargetGroup: 7
-  BuildTarget: 13
+  BuildTargetGroup: 4
+  BuildTarget: 9
   BuildCompression: 1

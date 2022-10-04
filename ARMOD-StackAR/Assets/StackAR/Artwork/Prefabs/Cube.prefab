@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7006421154806840535}
   - component: {fileID: 7006421154806840523}
   - component: {fileID: 7006421154806840520}
-  - component: {fileID: 396520373062965771}
+  - component: {fileID: 3007981791427198930}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &396520373062965771
+--- !u!114 &3007981791427198930
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,24 +93,67 @@ MonoBehaviour:
   m_GameObject: {fileID: 7006421154806840532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 41794176, guid: 5d0f664f6524844d2a6551937ea8f554, type: 3}
+  m_Script: {fileID: 41794176, guid: b47d3201b4c054ef5b473fff6b8394f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ScriptList:
-  - ClassNamespace: StackAR
+  - ClassNamespace: StackAR.Runtime
     ClassName: MovingCube
-    ActivateAfterInitialization: 1
-    AutoPaddingData: 1
     Fields:
     - FieldName: moveSpeed
-      Value: 3
+      Value: 5
       GameObject: {fileID: 0}
       FieldType: 0
+      GameObjects: []
+      Textures: []
+      Transforms: []
+      AudioClips: []
+      Shaders: []
+      Sprites: []
+      Materials: []
+      MeshRenderers: []
+      AnimationClips: []
+      VideoClips: []
+      Meshes: []
+      Colors: []
+      MonoBehaviours: []
+      Colliders: []
+      Animators: []
     - FieldName: CubeDirection
       Value: 0
       GameObject: {fileID: 0}
       FieldType: 6
+      GameObjects: []
+      Textures: []
+      Transforms: []
+      AudioClips: []
+      Shaders: []
+      Sprites: []
+      Materials: []
+      MeshRenderers: []
+      AnimationClips: []
+      VideoClips: []
+      Meshes: []
+      Colors: []
+      MonoBehaviours: []
+      Colliders: []
+      Animators: []
     - FieldName: stop
       Value: False
       GameObject: {fileID: 0}
       FieldType: 2
+      GameObjects: []
+      Textures: []
+      Transforms: []
+      AudioClips: []
+      Shaders: []
+      Sprites: []
+      Materials: []
+      MeshRenderers: []
+      AnimationClips: []
+      VideoClips: []
+      Meshes: []
+      Colors: []
+      MonoBehaviours: []
+      Colliders: []
+      Animators: []

@@ -2,7 +2,7 @@ using System;
 using com.Phantoms.ActionNotification.Runtime;
 using UnityEngine;
 
-namespace StackAR
+namespace StackAR.Runtime
 {
     public class MovingCube : MonoBehaviour
     {

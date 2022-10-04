@@ -3,7 +3,7 @@ using com.Phantoms.ActionNotification.Runtime;
 using UnityEngine;
 using UnityEngine.Assertions;
 
-namespace StackAR
+namespace StackAR.Runtime
 {
 
     public class StackARManager : MonoBehaviour

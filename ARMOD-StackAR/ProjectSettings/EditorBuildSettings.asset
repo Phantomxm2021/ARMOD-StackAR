@@ -6,15 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Packages/com.phantomsxr.armodcore/Assets/Scenes/Release/Initilizer.unity
+    path: Packages/com.phantomsxr.foundation/Assets/Scenes/Release/Initilizer.unity
     guid: 15de3d341d70b430685dd6576af5739f
   - enabled: 1
-    path: Packages/com.phantomsxr.armodcore/Assets/Scenes/Release/Main.unity
+    path: Packages/com.phantomsxr.foundation/Assets/Scenes/Release/Main.unity
     guid: 168d84f18b28a43f99b2761f05816b99
   - enabled: 1
-    path: Packages/com.phantomsxr.armodcore/Assets/Scenes/Release/Clear.unity
+    path: Packages/com.phantomsxr.foundation/Assets/Scenes/Release/Clear.unity
     guid: a68aaf7f526c94bdda317a7bb4d4d80f
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c8b7c41670d06ac4989fdb8b2bb141d2, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 454d295d51b19054097b1dba2a8f9ed9, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 1a7723ef2aa99458499aaaa7b04ac73f, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a85636127d1d66743b8c86433bf1ecae, type: 2}

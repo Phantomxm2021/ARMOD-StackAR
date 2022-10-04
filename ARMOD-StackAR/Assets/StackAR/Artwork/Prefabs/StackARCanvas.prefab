@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 4363899462087998637}
   - component: {fileID: 4363899462087998638}
   - component: {fileID: 474698125}
-  - component: {fileID: 6714776458852131595}
+  - component: {fileID: 9114380854927442290}
   m_Layer: 5
   m_Name: StackARCanvas
   m_TagString: Untagged
@@ -299,7 +299,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6714776458852131595
+--- !u!114 &9114380854927442290
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -308,31 +308,89 @@ MonoBehaviour:
   m_GameObject: {fileID: 4363899462087998639}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 41794176, guid: 5d0f664f6524844d2a6551937ea8f554, type: 3}
+  m_Script: {fileID: 41794176, guid: b47d3201b4c054ef5b473fff6b8394f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ScriptList:
-  - ClassNamespace: StackAR
+  - ClassNamespace: StackAR.Runtime
     ClassName: UIManager
-    ActivateAfterInitialization: 1
-    AutoPaddingData: 1
     Fields:
     - FieldName: StartGameButton
       Value: 
       GameObject: {fileID: 4363899463042288037}
       FieldType: 4
+      GameObjects: []
+      Textures: []
+      Transforms: []
+      AudioClips: []
+      Shaders: []
+      Sprites: []
+      Materials: []
+      MeshRenderers: []
+      AnimationClips: []
+      VideoClips: []
+      Meshes: []
+      Colors: []
+      MonoBehaviours: []
+      Colliders: []
+      Animators: []
     - FieldName: GameOverExit
       Value: 
       GameObject: {fileID: 4363899463742157430}
       FieldType: 4
+      GameObjects: []
+      Textures: []
+      Transforms: []
+      AudioClips: []
+      Shaders: []
+      Sprites: []
+      Materials: []
+      MeshRenderers: []
+      AnimationClips: []
+      VideoClips: []
+      Meshes: []
+      Colors: []
+      MonoBehaviours: []
+      Colliders: []
+      Animators: []
     - FieldName: GamingScoreText
       Value: 
       GameObject: {fileID: 4363899461780523343}
       FieldType: 4
+      GameObjects: []
+      Textures: []
+      Transforms: []
+      AudioClips: []
+      Shaders: []
+      Sprites: []
+      Materials: []
+      MeshRenderers: []
+      AnimationClips: []
+      VideoClips: []
+      Meshes: []
+      Colors: []
+      MonoBehaviours: []
+      Colliders: []
+      Animators: []
     - FieldName: GameOverScoreText
       Value: 
       GameObject: {fileID: 4363899463148349091}
       FieldType: 4
+      GameObjects: []
+      Textures: []
+      Transforms: []
+      AudioClips: []
+      Shaders: []
+      Sprites: []
+      Materials: []
+      MeshRenderers: []
+      AnimationClips: []
+      VideoClips: []
+      Meshes: []
+      Colors: []
+      MonoBehaviours: []
+      Colliders: []
+      Animators: []
 --- !u!1 &4363899462650758373
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +426,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0.73010254, y: -11.909912}
+  m_AnchoredPosition: {x: 0.72998047, y: -11.909912}
   m_SizeDelta: {x: -582.5968, y: 115.089966}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4363899462650758378
@@ -690,7 +748,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0.73010254, y: -127}
+  m_AnchoredPosition: {x: 0.72998047, y: -127}
   m_SizeDelta: {x: -582.5968, y: 115.089966}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4363899463148349088
@@ -1349,6 +1407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
