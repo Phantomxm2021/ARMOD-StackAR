@@ -33,6 +33,7 @@ MonoBehaviour:
   UseEnvironmentHDRTexture: 0
   LightEstimation: 0
   LightEstimationHDR: 0
+  LightShadowStrength: 0.7
   CoachingOverlay: 0
   PostProcessing: 0
   CanInteraction: 0
@@ -41,8 +42,10 @@ MonoBehaviour:
   LocalizationInterval: 0
   UseServerLocalizer: 0
   AutoStart: 0
+  UseFiltering: 1
   BurstMode: 1
   StopLocalizedAfterSuccess: 1
+  ResetOnMapChange: 0
   AROcclusion: 0
   TemporalSmoothing: 0
   EnvironmentDepthMode: 0
@@ -117,6 +120,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3810b02e13a54ea6947542622a22e9aa, type: 3}
   m_Name: BuildSettingData
   m_EditorClassIdentifier: 
-  BuildTargetGroup: 4
-  BuildTarget: 9
+  BuildTargetGroup: 7
+  BuildTarget: 13
   BuildCompression: 1

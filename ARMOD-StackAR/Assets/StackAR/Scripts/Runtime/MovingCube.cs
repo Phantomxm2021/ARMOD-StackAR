@@ -1,10 +1,11 @@
 using System;
 using com.Phantoms.ActionNotification.Runtime;
 using UnityEngine;
+using XRMODEngineCore.Runtime;
 
 namespace StackAR.Runtime
 {
-    public class MovingCube : MonoBehaviour
+    public class MovingCube : XRMODBehaviour
     {
         private const float CONST_ERROR_MARGIN = 0.03f;
         private const float CONST_BOUND_SIZE = 2;

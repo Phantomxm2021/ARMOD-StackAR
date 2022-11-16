@@ -2,11 +2,12 @@ using System;
 using com.Phantoms.ActionNotification.Runtime;
 using UnityEngine;
 using UnityEngine.Assertions;
+using XRMODEngineCore.Runtime;
 
 namespace StackAR.Runtime
 {
 
-    public class StackARManager : MonoBehaviour
+    public class StackARManager : XRMODBehaviour
     {
         public static StackARManager INSTANCE { get; private set; }
 

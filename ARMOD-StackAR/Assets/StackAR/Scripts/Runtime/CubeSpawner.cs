@@ -1,8 +1,9 @@
 using UnityEngine;
+using XRMODEngineCore.Runtime;
 
 namespace StackAR.Runtime
 {
-    public class CubeSpawner : MonoBehaviour
+    public class CubeSpawner : XRMODBehaviour
     {
         public GameObject cube;
         public Transform root;

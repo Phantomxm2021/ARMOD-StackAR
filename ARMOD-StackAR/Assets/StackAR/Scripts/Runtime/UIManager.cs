@@ -4,10 +4,11 @@ using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
+using XRMODEngineCore.Runtime;
 
 namespace StackAR.Runtime
 {
-    public class UIManager : MonoBehaviour
+    public class UIManager : XRMODBehaviour
     {
         public Button StartGameButton;
         public Button GameOverExit;
